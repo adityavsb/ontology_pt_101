@@ -1,0 +1,1826 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_37019bc3_d109_406b_982e_6039ff976a75"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_4fe6e85c_5afa_49ec_a903_f735a7a2ecbf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_c2865334_19a3_4812_a64f_8ca87805a615"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_cc9d0e59_086a_4370_9307_5169eb0023c7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ceae3641_5958_4822_93d2_856cda951023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_db3c9577_518a_4893_aae2_d079708b7d80"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_2e860274_5ca4_444b_930c_c9881d855313"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_6cd869ce_e1cb_4336_81fb_b61ae8651c5d"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_550132dc_6b37_4840_be7b_af4fc9fc8baf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_69a2afbb_77ab_4374_8ee4_6e06d3beccb7"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_ce630f04_c6dc_42ba_86bb_3545c3a989ef"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_038c3b8f_e68a_4902_9d51_29e3c7c82797"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_10f1aca9_c8d1_423a_97ef_ed027c581b0b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_1ccff8f9_fe35_437d_bbde_5ac6d922855a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_2a281104_cabe_42e6_ae06_eb4fd39ad659"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_380bd64a_ab11_49fb_a8f9_211f39bee504"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_575ef633_b4d0_45c5_b3fb_e9fb83dd1869"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_60ffc09b_c728_485c_accb_5e875d4f4f5c"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_6185960a_371a_495c_af25_032dcb9ee828"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_728b1abf_0905_4809_94bf_f2d9012c28d4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_77abec21_733b_49b6_ab26_3bc4bd396e14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_7d05d891_5153_4835_a5fd_7a0fc5c9be8f"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_8af3e81c_879c_4040_a1fd_a80f64082c70"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b8cec97_7726_4327_b601_f6618738710c"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b9a468f_0269_4a18_bb9a_ab91a868ee32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_90e7ab51_94b0_476a_9280_94865922e462"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_9103b14b_eb78_4c21_81c4_681404265e28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_942d0f74_b8c8_42c8_8103_ee8b947f538f"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_9ef55ac0_46bc_4709_8b79_380f90ea4383"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_b2e12476_9ee8_46bf_b7b4_5f34776ab4c4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_bffb3406_2f70_4aff_b5f6_0205595196ad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_c0cb7835_d85c_4630_8348_b750567ed96a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_c95665fd_5dd7_4e4c_ab43_b988887dccee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_c9d982ed_c4b3_4c4e_b83d_fc575835e958"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_ce533437_5f6e_4443_90c1_27eee7f3f6be"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_ced37d5e_f65d_489c_b479_251c4a09a278"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_cf310f74_cbb6_424b_b57d_47766ae9e8b2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_e6e73268_2d7c_432f_9981_9d5f06eabf12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_f4a6ed66_ccef_471f_ac07_09c00ce01ba3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_fa9f5ddf_6fe2_4e32_8995_5d850c4ad832"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#definedTime"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OWLClass_37019bc3_d109_406b_982e_6039ff976a75"/>
+        <Class IRI="#OWLClass_ceae3641_5958_4822_93d2_856cda951023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_4fe6e85c_5afa_49ec_a903_f735a7a2ecbf"/>
+        <Class IRI="#OWLClass_ceae3641_5958_4822_93d2_856cda951023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ceae3641_5958_4822_93d2_856cda951023"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_db3c9577_518a_4893_aae2_d079708b7d80"/>
+        <Class IRI="#OWLClass_ceae3641_5958_4822_93d2_856cda951023"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_cc9d0e59_086a_4370_9307_5169eb0023c7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_038c3b8f_e68a_4902_9d51_29e3c7c82797"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_c2865334_19a3_4812_a64f_8ca87805a615"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_10f1aca9_c8d1_423a_97ef_ed027c581b0b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1ccff8f9_fe35_437d_bbde_5ac6d922855a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2a281104_cabe_42e6_ae06_eb4fd39ad659"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_380bd64a_ab11_49fb_a8f9_211f39bee504"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_575ef633_b4d0_45c5_b3fb_e9fb83dd1869"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_60ffc09b_c728_485c_accb_5e875d4f4f5c"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6185960a_371a_495c_af25_032dcb9ee828"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_728b1abf_0905_4809_94bf_f2d9012c28d4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_77abec21_733b_49b6_ab26_3bc4bd396e14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7d05d891_5153_4835_a5fd_7a0fc5c9be8f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8af3e81c_879c_4040_a1fd_a80f64082c70"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b8cec97_7726_4327_b601_f6618738710c"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b9a468f_0269_4a18_bb9a_ab91a868ee32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90e7ab51_94b0_476a_9280_94865922e462"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9103b14b_eb78_4c21_81c4_681404265e28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_942d0f74_b8c8_42c8_8103_ee8b947f538f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_cc9d0e59_086a_4370_9307_5169eb0023c7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9ef55ac0_46bc_4709_8b79_380f90ea4383"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b2e12476_9ee8_46bf_b7b4_5f34776ab4c4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_bffb3406_2f70_4aff_b5f6_0205595196ad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c0cb7835_d85c_4630_8348_b750567ed96a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c95665fd_5dd7_4e4c_ab43_b988887dccee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c9d982ed_c4b3_4c4e_b83d_fc575835e958"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ce533437_5f6e_4443_90c1_27eee7f3f6be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ced37d5e_f65d_489c_b479_251c4a09a278"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_cf310f74_cbb6_424b_b57d_47766ae9e8b2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e6e73268_2d7c_432f_9981_9d5f06eabf12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f4a6ed66_ccef_471f_ac07_09c00ce01ba3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fa9f5ddf_6fe2_4e32_8995_5d850c4ad832"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_10f1aca9_c8d1_423a_97ef_ed027c581b0b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_10f1aca9_c8d1_423a_97ef_ed027c581b0b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_bffb3406_2f70_4aff_b5f6_0205595196ad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1ccff8f9_fe35_437d_bbde_5ac6d922855a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1ccff8f9_fe35_437d_bbde_5ac6d922855a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2a281104_cabe_42e6_ae06_eb4fd39ad659"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2a281104_cabe_42e6_ae06_eb4fd39ad659"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_380bd64a_ab11_49fb_a8f9_211f39bee504"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_380bd64a_ab11_49fb_a8f9_211f39bee504"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_575ef633_b4d0_45c5_b3fb_e9fb83dd1869"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_575ef633_b4d0_45c5_b3fb_e9fb83dd1869"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_60ffc09b_c728_485c_accb_5e875d4f4f5c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_60ffc09b_c728_485c_accb_5e875d4f4f5c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ced37d5e_f65d_489c_b479_251c4a09a278"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6185960a_371a_495c_af25_032dcb9ee828"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6185960a_371a_495c_af25_032dcb9ee828"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_bffb3406_2f70_4aff_b5f6_0205595196ad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_6cd869ce_e1cb_4336_81fb_b61ae8651c5d"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_728b1abf_0905_4809_94bf_f2d9012c28d4"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_77abec21_733b_49b6_ab26_3bc4bd396e14"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_77abec21_733b_49b6_ab26_3bc4bd396e14"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7d05d891_5153_4835_a5fd_7a0fc5c9be8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7d05d891_5153_4835_a5fd_7a0fc5c9be8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8af3e81c_879c_4040_a1fd_a80f64082c70"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8af3e81c_879c_4040_a1fd_a80f64082c70"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b8cec97_7726_4327_b601_f6618738710c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b8cec97_7726_4327_b601_f6618738710c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b9a468f_0269_4a18_bb9a_ab91a868ee32"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b9a468f_0269_4a18_bb9a_ab91a868ee32"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90e7ab51_94b0_476a_9280_94865922e462"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90e7ab51_94b0_476a_9280_94865922e462"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9103b14b_eb78_4c21_81c4_681404265e28"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9103b14b_eb78_4c21_81c4_681404265e28"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_942d0f74_b8c8_42c8_8103_ee8b947f538f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_942d0f74_b8c8_42c8_8103_ee8b947f538f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_6cd869ce_e1cb_4336_81fb_b61ae8651c5d"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9ef55ac0_46bc_4709_8b79_380f90ea4383"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b2e12476_9ee8_46bf_b7b4_5f34776ab4c4"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b2e12476_9ee8_46bf_b7b4_5f34776ab4c4"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ced37d5e_f65d_489c_b479_251c4a09a278"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_bffb3406_2f70_4aff_b5f6_0205595196ad"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_bffb3406_2f70_4aff_b5f6_0205595196ad"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c0cb7835_d85c_4630_8348_b750567ed96a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c0cb7835_d85c_4630_8348_b750567ed96a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c95665fd_5dd7_4e4c_ab43_b988887dccee"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c95665fd_5dd7_4e4c_ab43_b988887dccee"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c9d982ed_c4b3_4c4e_b83d_fc575835e958"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c9d982ed_c4b3_4c4e_b83d_fc575835e958"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ce533437_5f6e_4443_90c1_27eee7f3f6be"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ce533437_5f6e_4443_90c1_27eee7f3f6be"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ced37d5e_f65d_489c_b479_251c4a09a278"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_038c3b8f_e68a_4902_9d51_29e3c7c82797"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ced37d5e_f65d_489c_b479_251c4a09a278"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_6cd869ce_e1cb_4336_81fb_b61ae8651c5d"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_cf310f74_cbb6_424b_b57d_47766ae9e8b2"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_038c3b8f_e68a_4902_9d51_29e3c7c82797"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_6cd869ce_e1cb_4336_81fb_b61ae8651c5d"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e6e73268_2d7c_432f_9981_9d5f06eabf12"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f4a6ed66_ccef_471f_ac07_09c00ce01ba3"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f4a6ed66_ccef_471f_ac07_09c00ce01ba3"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fa9f5ddf_6fe2_4e32_8995_5d850c4ad832"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fa9f5ddf_6fe2_4e32_8995_5d850c4ad832"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_038c3b8f_e68a_4902_9d51_29e3c7c82797"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_69a2afbb_77ab_4374_8ee4_6e06d3beccb7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+        <Literal datatypeIRI="&xsd;integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+        <Literal datatypeIRI="&xsd;string">Beatty Local</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_ce630f04_c6dc_42ba_86bb_3545c3a989ef"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_10f1aca9_c8d1_423a_97ef_ed027c581b0b"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">15:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_10f1aca9_c8d1_423a_97ef_ed027c581b0b"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">15:30:00
+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_10f1aca9_c8d1_423a_97ef_ed027c581b0b"/>
+        <Literal datatypeIRI="&xsd;integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1ccff8f9_fe35_437d_bbde_5ac6d922855a"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">15:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1ccff8f9_fe35_437d_bbde_5ac6d922855a"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">15:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1ccff8f9_fe35_437d_bbde_5ac6d922855a"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b"/>
+        <Literal datatypeIRI="&xsd;integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b"/>
+        <Literal datatypeIRI="&xsd;string">Stagecoach Hotel &amp; Casino</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2a281104_cabe_42e6_ae06_eb4fd39ad659"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">10:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2a281104_cabe_42e6_ae06_eb4fd39ad659"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">10:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2a281104_cabe_42e6_ae06_eb4fd39ad659"/>
+        <Literal datatypeIRI="&xsd;integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec"/>
+        <Literal datatypeIRI="&xsd;integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec"/>
+        <Literal datatypeIRI="&xsd;string">E Main St and S Irving St</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_380bd64a_ab11_49fb_a8f9_211f39bee504"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:50:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_380bd64a_ab11_49fb_a8f9_211f39bee504"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:50:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_380bd64a_ab11_49fb_a8f9_211f39bee504"/>
+        <Literal datatypeIRI="&xsd;integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_575ef633_b4d0_45c5_b3fb_e9fb83dd1869"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">7:10:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_575ef633_b4d0_45c5_b3fb_e9fb83dd1869"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">7:10:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_575ef633_b4d0_45c5_b3fb_e9fb83dd1869"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_60ffc09b_c728_485c_accb_5e875d4f4f5c"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">11:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_60ffc09b_c728_485c_accb_5e875d4f4f5c"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">11:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_60ffc09b_c728_485c_accb_5e875d4f4f5c"/>
+        <Literal datatypeIRI="&xsd;integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6185960a_371a_495c_af25_032dcb9ee828"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">15:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6185960a_371a_495c_af25_032dcb9ee828"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">15:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6185960a_371a_495c_af25_032dcb9ee828"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_728b1abf_0905_4809_94bf_f2d9012c28d4"/>
+        <Literal datatypeIRI="&xsd;nonNegativeInteger">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_728b1abf_0905_4809_94bf_f2d9012c28d4"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_728b1abf_0905_4809_94bf_f2d9012c28d4"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">7:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e"/>
+        <Literal datatypeIRI="&xsd;integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e"/>
+        <Literal datatypeIRI="&xsd;string">Stagecoach Hotel &amp; Casino</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_77abec21_733b_49b6_ab26_3bc4bd396e14"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">7:50:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_77abec21_733b_49b6_ab26_3bc4bd396e14"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">7:50:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_77abec21_733b_49b6_ab26_3bc4bd396e14"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2"/>
+        <Literal datatypeIRI="&xsd;integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2"/>
+        <Literal datatypeIRI="&xsd;string">E Main St and S Irving St</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7d05d891_5153_4835_a5fd_7a0fc5c9be8f"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">7:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7d05d891_5153_4835_a5fd_7a0fc5c9be8f"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">7:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7d05d891_5153_4835_a5fd_7a0fc5c9be8f"/>
+        <Literal datatypeIRI="&xsd;integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+        <Literal datatypeIRI="&xsd;float">-116.76821</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+        <Literal datatypeIRI="&xsd;float">36.914894</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+        <Literal datatypeIRI="&xsd;string">North Ave at D Ave N </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8af3e81c_879c_4040_a1fd_a80f64082c70"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:25:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8af3e81c_879c_4040_a1fd_a80f64082c70"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:25:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8af3e81c_879c_4040_a1fd_a80f64082c70"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b8cec97_7726_4327_b601_f6618738710c"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">16:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b8cec97_7726_4327_b601_f6618738710c"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">16:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b8cec97_7726_4327_b601_f6618738710c"/>
+        <Literal datatypeIRI="&xsd;integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b9a468f_0269_4a18_bb9a_ab91a868ee32"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b9a468f_0269_4a18_bb9a_ab91a868ee32"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b9a468f_0269_4a18_bb9a_ab91a868ee32"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+        <Literal datatypeIRI="&xsd;float">-116.7516</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+        <Literal datatypeIRI="&xsd;float">36.915684</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+        <Literal datatypeIRI="&xsd;integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+        <Literal datatypeIRI="&xsd;string">Stagecoach Hotel &amp; Casino</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90e7ab51_94b0_476a_9280_94865922e462"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">15:50:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90e7ab51_94b0_476a_9280_94865922e462"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">15:50:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90e7ab51_94b0_476a_9280_94865922e462"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9103b14b_eb78_4c21_81c4_681404265e28"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9103b14b_eb78_4c21_81c4_681404265e28"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9103b14b_eb78_4c21_81c4_681404265e28"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_942d0f74_b8c8_42c8_8103_ee8b947f538f"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:42:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_942d0f74_b8c8_42c8_8103_ee8b947f538f"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:37:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_942d0f74_b8c8_42c8_8103_ee8b947f538f"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+        <Literal datatypeIRI="&xsd;integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9ef55ac0_46bc_4709_8b79_380f90ea4383"/>
+        <Literal datatypeIRI="&xsd;nonNegativeInteger">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9ef55ac0_46bc_4709_8b79_380f90ea4383"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9ef55ac0_46bc_4709_8b79_380f90ea4383"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">7:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+        <Literal datatypeIRI="&xsd;float">-116.76218</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+        <Literal datatypeIRI="&xsd;float">36.905697</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+        <Literal datatypeIRI="&xsd;string">E Main St and S Irving St</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b2e12476_9ee8_46bf_b7b4_5f34776ab4c4"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">10:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b2e12476_9ee8_46bf_b7b4_5f34776ab4c4"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">10:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b2e12476_9ee8_46bf_b7b4_5f34776ab4c4"/>
+        <Literal datatypeIRI="&xsd;integer">1
+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_bffb3406_2f70_4aff_b5f6_0205595196ad"/>
+        <Literal datatypeIRI="&xsd;integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_bffb3406_2f70_4aff_b5f6_0205595196ad"/>
+        <Literal datatypeIRI="&xsd;string">Stagecoach Hotel &amp; Casino (Express)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c0cb7835_d85c_4630_8348_b750567ed96a"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:25:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c0cb7835_d85c_4630_8348_b750567ed96a"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:25:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c0cb7835_d85c_4630_8348_b750567ed96a"/>
+        <Literal datatypeIRI="&xsd;integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c95665fd_5dd7_4e4c_ab43_b988887dccee"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:08:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c95665fd_5dd7_4e4c_ab43_b988887dccee"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:08:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c95665fd_5dd7_4e4c_ab43_b988887dccee"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c9d982ed_c4b3_4c4e_b83d_fc575835e958"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">10:10:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c9d982ed_c4b3_4c4e_b83d_fc575835e958"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">10:10:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c9d982ed_c4b3_4c4e_b83d_fc575835e958"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ce533437_5f6e_4443_90c1_27eee7f3f6be"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">7:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ce533437_5f6e_4443_90c1_27eee7f3f6be"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">7:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ce533437_5f6e_4443_90c1_27eee7f3f6be"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ced37d5e_f65d_489c_b479_251c4a09a278"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ced37d5e_f65d_489c_b479_251c4a09a278"/>
+        <Literal datatypeIRI="&xsd;string">E Main St and S Irving St </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_cf310f74_cbb6_424b_b57d_47766ae9e8b2"/>
+        <Literal datatypeIRI="&xsd;nonNegativeInteger">900</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_cf310f74_cbb6_424b_b57d_47766ae9e8b2"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">22:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_cf310f74_cbb6_424b_b57d_47766ae9e8b2"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3"/>
+        <Literal datatypeIRI="&xsd;integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3"/>
+        <Literal datatypeIRI="&xsd;string">E Main St and S Irving S</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e6e73268_2d7c_432f_9981_9d5f06eabf12"/>
+        <Literal datatypeIRI="&xsd;nonNegativeInteger">900</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e6e73268_2d7c_432f_9981_9d5f06eabf12"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">22:25:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e6e73268_2d7c_432f_9981_9d5f06eabf12"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">12:25:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f4a6ed66_ccef_471f_ac07_09c00ce01ba3"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">8:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f4a6ed66_ccef_471f_ac07_09c00ce01ba3"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">8:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f4a6ed66_ccef_471f_ac07_09c00ce01ba3"/>
+        <Literal datatypeIRI="&xsd;integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fa9f5ddf_6fe2_4e32_8995_5d850c4ad832"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">7:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fa9f5ddf_6fe2_4e32_8995_5d850c4ad832"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime">7:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fa9f5ddf_6fe2_4e32_8995_5d850c4ad832"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af"/>
+        <Literal datatypeIRI="&xsd;string">Stagecoach Hotel &amp; Casino</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_2e860274_5ca4_444b_930c_c9881d855313"/>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779"/>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_6cd869ce_e1cb_4336_81fb_b61ae8651c5d"/>
+        <Class IRI="#OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c"/>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_2e860274_5ca4_444b_930c_c9881d855313"/>
+        <Class IRI="#OWLClass_ceae3641_5958_4822_93d2_856cda951023"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8"/>
+        <Class IRI="#OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779"/>
+        <Class IRI="#OWLClass_cc9d0e59_086a_4370_9307_5169eb0023c7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_6cd869ce_e1cb_4336_81fb_b61ae8651c5d"/>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f"/>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c"/>
+        <Class IRI="#OWLClass_c2865334_19a3_4812_a64f_8ca87805a615"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64"/>
+        <DataProperty IRI="#OWLDataProperty_550132dc_6b37_4840_be7b_af4fc9fc8baf"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_ce630f04_c6dc_42ba_86bb_3545c3a989ef"/>
+        <DataProperty IRI="#OWLDataProperty_550132dc_6b37_4840_be7b_af4fc9fc8baf"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6"/>
+        <Class IRI="#OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5"/>
+        <Class IRI="#OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_69a2afbb_77ab_4374_8ee4_6e06d3beccb7"/>
+        <Class IRI="#OWLClass_c2865334_19a3_4812_a64f_8ca87805a615"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00"/>
+        <Class IRI="#OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <Class IRI="#OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <Class IRI="#OWLClass_c2865334_19a3_4812_a64f_8ca87805a615"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <Class IRI="#OWLClass_cc9d0e59_086a_4370_9307_5169eb0023c7"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c"/>
+        <Class IRI="#OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64"/>
+        <Class IRI="#OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64"/>
+        <Class IRI="#OWLClass_c2865334_19a3_4812_a64f_8ca87805a615"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac"/>
+        <Class IRI="#OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914"/>
+        <Class IRI="#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_ce630f04_c6dc_42ba_86bb_3545c3a989ef"/>
+        <Class IRI="#OWLClass_c2865334_19a3_4812_a64f_8ca87805a615"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <Class IRI="#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd"/>
+        <Datatype IRI="#definedTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a"/>
+        <Datatype IRI="#definedTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_69a2afbb_77ab_4374_8ee4_6e06d3beccb7"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c"/>
+        <Datatype IRI="#definedTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac"/>
+        <Datatype IRI="#definedTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_ce630f04_c6dc_42ba_86bb_3545c3a989ef"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Stop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_37019bc3_d109_406b_982e_6039ff976a75</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">MetroOption</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">StopTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_4fe6e85c_5afa_49ec_a903_f735a7a2ecbf</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">RenfeOption</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_c2865334_19a3_4812_a64f_8ca87805a615</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Routes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_cc9d0e59_086a_4370_9307_5169eb0023c7</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ceae3641_5958_4822_93d2_856cda951023</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TransportOptions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_db3c9577_518a_4893_aae2_d079708b7d80</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BusOption</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Frequencies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Trips</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">longitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">departure_time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_550132dc_6b37_4840_be7b_af4fc9fc8baf</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">arrival_time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">headway_sec</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_69a2afbb_77ab_4374_8ee4_6e06d3beccb7</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">latitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">id</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">end_time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">long_name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">start_time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">headsign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_ce630f04_c6dc_42ba_86bb_3545c3a989ef</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">short_name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_038c3b8f_e68a_4902_9d51_29e3c7c82797</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">direction_2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">route_1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_10f1aca9_c8d1_423a_97ef_ed027c581b0b</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_1ccff8f9_fe35_437d_bbde_5ac6d922855a</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trip_7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_2a281104_cabe_42e6_ae06_eb4fd39ad659</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trip_8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_380bd64a_ab11_49fb_a8f9_211f39bee504</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_23</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_575ef633_b4d0_45c5_b3fb_e9fb83dd1869</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_60ffc09b_c728_485c_accb_5e875d4f4f5c</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_6185960a_371a_495c_af25_032dcb9ee828</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_728b1abf_0905_4809_94bf_f2d9012c28d4</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">fq_1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trip_5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_77abec21_733b_49b6_ab26_3bc4bd396e14</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_16</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trip_6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_7d05d891_5153_4835_a5fd_7a0fc5c9be8f</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_13</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_8af3e81c_879c_4040_a1fd_a80f64082c70</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_21</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_8b8cec97_7726_4327_b601_f6618738710c</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_8b9a468f_0269_4a18_bb9a_ab91a868ee32</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_90e7ab51_94b0_476a_9280_94865922e462</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_9103b14b_eb78_4c21_81c4_681404265e28</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_18</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_942d0f74_b8c8_42c8_8103_ee8b947f538f</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_22</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">direction_1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_9ef55ac0_46bc_4709_8b79_380f90ea4383</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">fq_2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_b2e12476_9ee8_46bf_b7b4_5f34776ab4c4</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_bffb3406_2f70_4aff_b5f6_0205595196ad</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trip_3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_c0cb7835_d85c_4630_8348_b750567ed96a</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_c95665fd_5dd7_4e4c_ab43_b988887dccee</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_19</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_c9d982ed_c4b3_4c4e_b83d_fc575835e958</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_ce533437_5f6e_4443_90c1_27eee7f3f6be</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_11</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_ced37d5e_f65d_489c_b479_251c4a09a278</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trip_2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_cf310f74_cbb6_424b_b57d_47766ae9e8b2</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">fq_3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trip_4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_e6e73268_2d7c_432f_9981_9d5f06eabf12</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">fq_4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_f4a6ed66_ccef_471f_ac07_09c00ce01ba3</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_17</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_fa9f5ddf_6fe2_4e32_8995_5d850c4ad832</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stop_t_14</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">trip_1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_2e860274_5ca4_444b_930c_c9881d855313</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has_transport_option</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has_stoppage_time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has_direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_6cd869ce_e1cb_4336_81fb_b61ae8651c5d</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">includes_trip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has_trip_time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">includes_route</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
