@@ -1,0 +1,913 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY ontology_public_tranport_101 "http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:ontology_public_tranport_101="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology rdf:about="http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#definedTime -->
+
+    <rdfs:Datatype rdf:about="&ontology_public_tranport_101;definedTime"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLObjectProperty_2e860274_5ca4_444b_930c_c9881d855313 -->
+
+    <ObjectProperty rdf:about="&ontology_public_tranport_101;OWLObjectProperty_2e860274_5ca4_444b_930c_c9881d855313">
+        <rdfs:label xml:lang="en">has_transport_option</rdfs:label>
+        <rdfs:range rdf:resource="&ontology_public_tranport_101;OWLClass_ceae3641_5958_4822_93d2_856cda951023"/>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 -->
+
+    <ObjectProperty rdf:about="&ontology_public_tranport_101;OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8">
+        <rdfs:label xml:lang="en">has_stoppage_time</rdfs:label>
+        <rdfs:range rdf:resource="&ontology_public_tranport_101;OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779 -->
+
+    <ObjectProperty rdf:about="&ontology_public_tranport_101;OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779">
+        <rdfs:label xml:lang="en">has_direction</rdfs:label>
+        <rdfs:range rdf:resource="&ontology_public_tranport_101;OWLClass_cc9d0e59_086a_4370_9307_5169eb0023c7"/>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLObjectProperty_6cd869ce_e1cb_4336_81fb_b61ae8651c5d -->
+
+    <ObjectProperty rdf:about="&ontology_public_tranport_101;OWLObjectProperty_6cd869ce_e1cb_4336_81fb_b61ae8651c5d">
+        <rdfs:label xml:lang="en">includes_trip</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+        <rdfs:range rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f -->
+
+    <ObjectProperty rdf:about="&ontology_public_tranport_101;OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f">
+        <rdfs:label xml:lang="en">has_trip_time</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:range rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c -->
+
+    <ObjectProperty rdf:about="&ontology_public_tranport_101;OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c">
+        <rdfs:label xml:lang="en">includes_route</rdfs:label>
+        <rdfs:range rdf:resource="&ontology_public_tranport_101;OWLClass_c2865334_19a3_4812_a64f_8ca87805a615"/>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6 -->
+
+    <DatatypeProperty rdf:about="&ontology_public_tranport_101;OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6">
+        <rdfs:label xml:lang="en">longitude</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd -->
+
+    <DatatypeProperty rdf:about="&ontology_public_tranport_101;OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd">
+        <rdfs:label xml:lang="en">departure_time</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:range rdf:resource="&ontology_public_tranport_101;definedTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLDataProperty_550132dc_6b37_4840_be7b_af4fc9fc8baf -->
+
+    <DatatypeProperty rdf:about="&ontology_public_tranport_101;OWLDataProperty_550132dc_6b37_4840_be7b_af4fc9fc8baf">
+        <rdfs:label xml:lang="en">name</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a -->
+
+    <DatatypeProperty rdf:about="&ontology_public_tranport_101;OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a">
+        <rdfs:label xml:lang="en">arrival_time</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:range rdf:resource="&ontology_public_tranport_101;definedTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5 -->
+
+    <DatatypeProperty rdf:about="&ontology_public_tranport_101;OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5">
+        <rdfs:label xml:lang="en">headway_sec</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLDataProperty_69a2afbb_77ab_4374_8ee4_6e06d3beccb7 -->
+
+    <DatatypeProperty rdf:about="&ontology_public_tranport_101;OWLDataProperty_69a2afbb_77ab_4374_8ee4_6e06d3beccb7">
+        <rdfs:label xml:lang="en">type</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_c2865334_19a3_4812_a64f_8ca87805a615"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00 -->
+
+    <DatatypeProperty rdf:about="&ontology_public_tranport_101;OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00">
+        <rdfs:label xml:lang="en">latitude</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb -->
+
+    <DatatypeProperty rdf:about="&ontology_public_tranport_101;OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb">
+        <rdfs:label xml:lang="en">id</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_c2865334_19a3_4812_a64f_8ca87805a615"/>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_cc9d0e59_086a_4370_9307_5169eb0023c7"/>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c -->
+
+    <DatatypeProperty rdf:about="&ontology_public_tranport_101;OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c">
+        <rdfs:label xml:lang="en">end_time</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+        <rdfs:range rdf:resource="&ontology_public_tranport_101;definedTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64 -->
+
+    <DatatypeProperty rdf:about="&ontology_public_tranport_101;OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64">
+        <rdfs:label xml:lang="en">long_name</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_c2865334_19a3_4812_a64f_8ca87805a615"/>
+        <rdfs:subPropertyOf rdf:resource="&ontology_public_tranport_101;OWLDataProperty_550132dc_6b37_4840_be7b_af4fc9fc8baf"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac -->
+
+    <DatatypeProperty rdf:about="&ontology_public_tranport_101;OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac">
+        <rdfs:label xml:lang="en">start_time</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+        <rdfs:range rdf:resource="&ontology_public_tranport_101;definedTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914 -->
+
+    <DatatypeProperty rdf:about="&ontology_public_tranport_101;OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914">
+        <rdfs:label xml:lang="en">headsign</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLDataProperty_ce630f04_c6dc_42ba_86bb_3545c3a989ef -->
+
+    <DatatypeProperty rdf:about="&ontology_public_tranport_101;OWLDataProperty_ce630f04_c6dc_42ba_86bb_3545c3a989ef">
+        <rdfs:label xml:lang="en">short_name</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_c2865334_19a3_4812_a64f_8ca87805a615"/>
+        <rdfs:subPropertyOf rdf:resource="&ontology_public_tranport_101;OWLDataProperty_550132dc_6b37_4840_be7b_af4fc9fc8baf"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd -->
+
+    <DatatypeProperty rdf:about="&ontology_public_tranport_101;OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd">
+        <rdfs:label xml:lang="en">stop_sequence</rdfs:label>
+        <rdfs:domain rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b -->
+
+    <Class rdf:about="&ontology_public_tranport_101;OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b">
+        <rdfs:label xml:lang="en">Stop</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLClass_37019bc3_d109_406b_982e_6039ff976a75 -->
+
+    <Class rdf:about="&ontology_public_tranport_101;OWLClass_37019bc3_d109_406b_982e_6039ff976a75">
+        <rdfs:label xml:lang="en">MetroOption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ontology_public_tranport_101;OWLClass_ceae3641_5958_4822_93d2_856cda951023"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50 -->
+
+    <Class rdf:about="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50">
+        <rdfs:label xml:lang="en">StopTime</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLClass_4fe6e85c_5afa_49ec_a903_f735a7a2ecbf -->
+
+    <Class rdf:about="&ontology_public_tranport_101;OWLClass_4fe6e85c_5afa_49ec_a903_f735a7a2ecbf">
+        <rdfs:label xml:lang="en">RenfeOption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ontology_public_tranport_101;OWLClass_ceae3641_5958_4822_93d2_856cda951023"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLClass_c2865334_19a3_4812_a64f_8ca87805a615 -->
+
+    <Class rdf:about="&ontology_public_tranport_101;OWLClass_c2865334_19a3_4812_a64f_8ca87805a615">
+        <rdfs:label xml:lang="en">Routes</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLClass_cc9d0e59_086a_4370_9307_5169eb0023c7 -->
+
+    <Class rdf:about="&ontology_public_tranport_101;OWLClass_cc9d0e59_086a_4370_9307_5169eb0023c7">
+        <rdfs:label xml:lang="en">direction</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLClass_ceae3641_5958_4822_93d2_856cda951023 -->
+
+    <Class rdf:about="&ontology_public_tranport_101;OWLClass_ceae3641_5958_4822_93d2_856cda951023">
+        <rdfs:label xml:lang="en">TransportOptions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLClass_db3c9577_518a_4893_aae2_d079708b7d80 -->
+
+    <Class rdf:about="&ontology_public_tranport_101;OWLClass_db3c9577_518a_4893_aae2_d079708b7d80">
+        <rdfs:label xml:lang="en">BusOption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ontology_public_tranport_101;OWLClass_ceae3641_5958_4822_93d2_856cda951023"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70 -->
+
+    <Class rdf:about="&ontology_public_tranport_101;OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70">
+        <rdfs:label xml:lang="en">Frequencies</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e -->
+
+    <Class rdf:about="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e">
+        <rdfs:label xml:lang="en">Trips</rdfs:label>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_038c3b8f_e68a_4902_9d51_29e3c7c82797 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_038c3b8f_e68a_4902_9d51_29e3c7c82797">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_cc9d0e59_086a_4370_9307_5169eb0023c7"/>
+        <rdfs:label xml:lang="en">direction_2</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb rdf:datatype="&xsd;integer">1</ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_c2865334_19a3_4812_a64f_8ca87805a615"/>
+        <rdfs:label xml:lang="en">route_1</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_ce630f04_c6dc_42ba_86bb_3545c3a989ef rdf:datatype="&xsd;integer">1</ontology_public_tranport_101:OWLDataProperty_ce630f04_c6dc_42ba_86bb_3545c3a989ef>
+        <ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb rdf:datatype="&xsd;integer">1</ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb>
+        <ontology_public_tranport_101:OWLDataProperty_69a2afbb_77ab_4374_8ee4_6e06d3beccb7 rdf:datatype="&xsd;integer">3</ontology_public_tranport_101:OWLDataProperty_69a2afbb_77ab_4374_8ee4_6e06d3beccb7>
+        <ontology_public_tranport_101:OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64 rdf:datatype="&xsd;string">Beatty Local</ontology_public_tranport_101:OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_10f1aca9_c8d1_423a_97ef_ed027c581b0b -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_10f1aca9_c8d1_423a_97ef_ed027c581b0b">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_7</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">15:30:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">15:30:00
+</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">3</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_bffb3406_2f70_4aff_b5f6_0205595196ad"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_1ccff8f9_fe35_437d_bbde_5ac6d922855a -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_1ccff8f9_fe35_437d_bbde_5ac6d922855a">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_8</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">1</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">15:30:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">15:30:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <rdfs:label xml:lang="en">trip_7</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb rdf:datatype="&xsd;integer">7</ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb>
+        <ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914 rdf:datatype="&xsd;string">Stagecoach Hotel &amp; Casino</ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914>
+        <ontology_public_tranport_101:OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+        <ontology_public_tranport_101:OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_2a281104_cabe_42e6_ae06_eb4fd39ad659 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_2a281104_cabe_42e6_ae06_eb4fd39ad659">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_3</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">10:30:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">10:30:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">3</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <rdfs:label xml:lang="en">trip_8</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb rdf:datatype="&xsd;integer">8</ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb>
+        <ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914 rdf:datatype="&xsd;string">E Main St and S Irving St</ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914>
+        <ontology_public_tranport_101:OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+        <ontology_public_tranport_101:OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_380bd64a_ab11_49fb_a8f9_211f39bee504 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_380bd64a_ab11_49fb_a8f9_211f39bee504">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_23</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">12:50:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">12:50:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">3</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec"/>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_575ef633_b4d0_45c5_b3fb_e9fb83dd1869 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_575ef633_b4d0_45c5_b3fb_e9fb83dd1869">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_12</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">2</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">7:10:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">7:10:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e"/>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_60ffc09b_c728_485c_accb_5e875d4f4f5c -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_60ffc09b_c728_485c_accb_5e875d4f4f5c">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_5</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">11:00:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">11:00:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">3</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_ced37d5e_f65d_489c_b479_251c4a09a278"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_6185960a_371a_495c_af25_032dcb9ee828 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_6185960a_371a_495c_af25_032dcb9ee828">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_6</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">1</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">15:00:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">15:00:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_bffb3406_2f70_4aff_b5f6_0205595196ad"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_728b1abf_0905_4809_94bf_f2d9012c28d4 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_728b1abf_0905_4809_94bf_f2d9012c28d4">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+        <rdfs:label xml:lang="en">fq_1</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c rdf:datatype="&ontology_public_tranport_101;definedTime">12:00:00</ontology_public_tranport_101:OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c>
+        <ontology_public_tranport_101:OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5 rdf:datatype="&xsd;nonNegativeInteger">600</ontology_public_tranport_101:OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5>
+        <ontology_public_tranport_101:OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac rdf:datatype="&ontology_public_tranport_101;definedTime">7:00:00</ontology_public_tranport_101:OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac>
+        <ontology_public_tranport_101:OWLObjectProperty_6cd869ce_e1cb_4336_81fb_b61ae8651c5d rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <rdfs:label xml:lang="en">trip_5</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb rdf:datatype="&xsd;integer">5</ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb>
+        <ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914 rdf:datatype="&xsd;string">Stagecoach Hotel &amp; Casino</ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914>
+        <ontology_public_tranport_101:OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+        <ontology_public_tranport_101:OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_77abec21_733b_49b6_ab26_3bc4bd396e14 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_77abec21_733b_49b6_ab26_3bc4bd396e14">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_16</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">2</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">7:50:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">7:50:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2"/>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <rdfs:label xml:lang="en">trip_6</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb rdf:datatype="&xsd;integer">6</ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb>
+        <ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914 rdf:datatype="&xsd;string">E Main St and S Irving St</ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914>
+        <ontology_public_tranport_101:OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+        <ontology_public_tranport_101:OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_7d05d891_5153_4835_a5fd_7a0fc5c9be8f -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_7d05d891_5153_4835_a5fd_7a0fc5c9be8f">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_13</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">3</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">7:30:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">7:30:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e"/>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+        <rdfs:label xml:lang="en">stop_2</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6 rdf:datatype="&xsd;float">-116.76821</ontology_public_tranport_101:OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6>
+        <ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb rdf:datatype="&xsd;integer">2</ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb>
+        <ontology_public_tranport_101:OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00 rdf:datatype="&xsd;float">36.914894</ontology_public_tranport_101:OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00>
+        <ontology_public_tranport_101:OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64 rdf:datatype="&xsd;string">North Ave at D Ave N </ontology_public_tranport_101:OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_8af3e81c_879c_4040_a1fd_a80f64082c70 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_8af3e81c_879c_4040_a1fd_a80f64082c70">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_21</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">1</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">12:25:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">12:25:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec"/>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_8b8cec97_7726_4327_b601_f6618738710c -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_8b8cec97_7726_4327_b601_f6618738710c">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_10</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">16:00:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">16:00:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">3</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_8b9a468f_0269_4a18_bb9a_ab91a868ee32 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_8b9a468f_0269_4a18_bb9a_ab91a868ee32">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_1</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">1</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">10:00:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">10:00:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+        <rdfs:label xml:lang="en">stop_3</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6 rdf:datatype="&xsd;float">-116.7516</ontology_public_tranport_101:OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6>
+        <ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb rdf:datatype="&xsd;integer">3</ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb>
+        <ontology_public_tranport_101:OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00 rdf:datatype="&xsd;float">36.915684</ontology_public_tranport_101:OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00>
+        <ontology_public_tranport_101:OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64 rdf:datatype="&xsd;string">Stagecoach Hotel &amp; Casino</ontology_public_tranport_101:OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_90e7ab51_94b0_476a_9280_94865922e462 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_90e7ab51_94b0_476a_9280_94865922e462">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_9</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">15:50:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">15:50:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">2</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_9103b14b_eb78_4c21_81c4_681404265e28 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_9103b14b_eb78_4c21_81c4_681404265e28">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_18</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">1</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">12:00:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">12:00:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b"/>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_942d0f74_b8c8_42c8_8103_ee8b947f538f -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_942d0f74_b8c8_42c8_8103_ee8b947f538f">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_22</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">12:37:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">12:42:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">2</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec"/>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_cc9d0e59_086a_4370_9307_5169eb0023c7"/>
+        <rdfs:label xml:lang="en">direction_1</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb rdf:datatype="&xsd;integer">0</ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_9ef55ac0_46bc_4709_8b79_380f90ea4383 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_9ef55ac0_46bc_4709_8b79_380f90ea4383">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+        <rdfs:label xml:lang="en">fq_2</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c rdf:datatype="&ontology_public_tranport_101;definedTime">12:30:00</ontology_public_tranport_101:OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c>
+        <ontology_public_tranport_101:OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5 rdf:datatype="&xsd;nonNegativeInteger">600</ontology_public_tranport_101:OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5>
+        <ontology_public_tranport_101:OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac rdf:datatype="&ontology_public_tranport_101;definedTime">7:30:00</ontology_public_tranport_101:OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac>
+        <ontology_public_tranport_101:OWLObjectProperty_6cd869ce_e1cb_4336_81fb_b61ae8651c5d rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_3047ac40_29f0_41ae_a1c5_612f10c65c4b"/>
+        <rdfs:label xml:lang="en">stop_1</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6 rdf:datatype="&xsd;float">-116.76218</ontology_public_tranport_101:OWLDataProperty_006ef91c_d55f_41ec_88b3_8be120aecde6>
+        <ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb rdf:datatype="&xsd;integer">1</ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb>
+        <ontology_public_tranport_101:OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00 rdf:datatype="&xsd;float">36.905697</ontology_public_tranport_101:OWLDataProperty_6f185582_54d9_4e5e_9e14_bc92eae86b00>
+        <ontology_public_tranport_101:OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64 rdf:datatype="&xsd;string">E Main St and S Irving St</ontology_public_tranport_101:OWLDataProperty_8970ea2d_7fbd_4ae1_bfcc_d8e5c4a3be64>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_b2e12476_9ee8_46bf_b7b4_5f34776ab4c4 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_b2e12476_9ee8_46bf_b7b4_5f34776ab4c4">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_4</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">1
+</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">10:30:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">10:30:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_ced37d5e_f65d_489c_b479_251c4a09a278"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_bffb3406_2f70_4aff_b5f6_0205595196ad -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_bffb3406_2f70_4aff_b5f6_0205595196ad">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <rdfs:label xml:lang="en">trip_3</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb rdf:datatype="&xsd;integer">3</ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb>
+        <ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914 rdf:datatype="&xsd;string">Stagecoach Hotel &amp; Casino (Express)</ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914>
+        <ontology_public_tranport_101:OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+        <ontology_public_tranport_101:OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_c0cb7835_d85c_4630_8348_b750567ed96a -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_c0cb7835_d85c_4630_8348_b750567ed96a">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_20</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">12:25:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">12:25:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">3</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b"/>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_c95665fd_5dd7_4e4c_ab43_b988887dccee -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_c95665fd_5dd7_4e4c_ab43_b988887dccee">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_19</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">12:08:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">12:08:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">2</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b"/>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_c9d982ed_c4b3_4c4e_b83d_fc575835e958 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_c9d982ed_c4b3_4c4e_b83d_fc575835e958">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_2</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">10:10:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">10:10:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">2</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_83ded61c_bfa8_4204_b8d6_9689a316682d"/>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_ce533437_5f6e_4443_90c1_27eee7f3f6be -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_ce533437_5f6e_4443_90c1_27eee7f3f6be">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_11</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">1</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">7:00:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">7:00:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_7353e178_c5e8_4687_91dd_75ae6302c26e"/>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_a4d03f6a_8e0a_4ed5_b48c_329280ddcf1b"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_ced37d5e_f65d_489c_b479_251c4a09a278 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_ced37d5e_f65d_489c_b479_251c4a09a278">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <rdfs:label xml:lang="en">trip_2</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb rdf:datatype="&xsd;integer">2</ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb>
+        <ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914 rdf:datatype="&xsd;string">E Main St and S Irving St </ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914>
+        <ontology_public_tranport_101:OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_038c3b8f_e68a_4902_9d51_29e3c7c82797"/>
+        <ontology_public_tranport_101:OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_cf310f74_cbb6_424b_b57d_47766ae9e8b2 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_cf310f74_cbb6_424b_b57d_47766ae9e8b2">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+        <rdfs:label xml:lang="en">fq_3</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac rdf:datatype="&ontology_public_tranport_101;definedTime">12:00:00</ontology_public_tranport_101:OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac>
+        <ontology_public_tranport_101:OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c rdf:datatype="&ontology_public_tranport_101;definedTime">22:00:00</ontology_public_tranport_101:OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c>
+        <ontology_public_tranport_101:OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5 rdf:datatype="&xsd;nonNegativeInteger">900</ontology_public_tranport_101:OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5>
+        <ontology_public_tranport_101:OWLObjectProperty_6cd869ce_e1cb_4336_81fb_b61ae8651c5d rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_26251147_24c3_47b5_be54_56ea86fc838b"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_e12119b6_d86a_403e_a36e_ba06721f56c3">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <rdfs:label xml:lang="en">trip_4</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb rdf:datatype="&xsd;integer">4</ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb>
+        <ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914 rdf:datatype="&xsd;string">E Main St and S Irving S</ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914>
+        <ontology_public_tranport_101:OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_038c3b8f_e68a_4902_9d51_29e3c7c82797"/>
+        <ontology_public_tranport_101:OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_e6e73268_2d7c_432f_9981_9d5f06eabf12 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_e6e73268_2d7c_432f_9981_9d5f06eabf12">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_db7e7bd4_161f_4892_9f66_0d11cd6aac70"/>
+        <rdfs:label xml:lang="en">fq_4</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac rdf:datatype="&ontology_public_tranport_101;definedTime">12:25:00</ontology_public_tranport_101:OWLDataProperty_979092d9_badd_4a6b_a03b_65d21c6030ac>
+        <ontology_public_tranport_101:OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c rdf:datatype="&ontology_public_tranport_101;definedTime">22:25:00</ontology_public_tranport_101:OWLDataProperty_7abf97d7_4428_4399_8240_d68577c44d9c>
+        <ontology_public_tranport_101:OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5 rdf:datatype="&xsd;nonNegativeInteger">900</ontology_public_tranport_101:OWLDataProperty_688ac09b_fc5f_48af_89c6_11ee32bce0d5>
+        <ontology_public_tranport_101:OWLObjectProperty_6cd869ce_e1cb_4336_81fb_b61ae8651c5d rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_33045d19_1b28_48ba_9729_d26d9e7817ec"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_f4a6ed66_ccef_471f_ac07_09c00ce01ba3 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_f4a6ed66_ccef_471f_ac07_09c00ce01ba3">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_17</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">3</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">8:00:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">8:00:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2"/>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_fa9f5ddf_6fe2_4e32_8995_5d850c4ad832 -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_fa9f5ddf_6fe2_4e32_8995_5d850c4ad832">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_4b066b30_2c90_401d_ae40_5e0bf0c20c50"/>
+        <rdfs:label xml:lang="en">stop_t_14</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd rdf:datatype="&xsd;integer">1</ontology_public_tranport_101:OWLDataProperty_fc324a61_1c09_4d8a_bf19_d5f1b16092bd>
+        <ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd rdf:datatype="&ontology_public_tranport_101;definedTime">7:30:00</ontology_public_tranport_101:OWLDataProperty_19ba5251_79b2_4115_abf3_2cb895282edd>
+        <ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a rdf:datatype="&ontology_public_tranport_101;definedTime">7:30:00</ontology_public_tranport_101:OWLDataProperty_58139549_93dc_4c96_8233_b656100a980a>
+        <ontology_public_tranport_101:OWLObjectProperty_7df7792d_484c_4653_977b_28579df2ad8f rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_7840150b_03f1_4837_b51c_4916f9edd0b2"/>
+        <ontology_public_tranport_101:OWLObjectProperty_3775a523_3cfa_4cb4_895a_686df8b056c8 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_8f3bf26a_daf0_4b7a_9f90_de1b61fb5f15"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aditya/ontologies/2016/0/ontology_public_tranport_101#OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af -->
+
+    <NamedIndividual rdf:about="&ontology_public_tranport_101;OWLNamedIndividual_fbe246df_5bf2_484e_aaaa_23587fca42af">
+        <rdf:type rdf:resource="&ontology_public_tranport_101;OWLClass_e46ce7c0_2649_43f6_bd63_ae5932563e6e"/>
+        <rdfs:label xml:lang="en">trip_1</rdfs:label>
+        <ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb rdf:datatype="&xsd;integer">1</ontology_public_tranport_101:OWLDataProperty_6f210699_b1a1_42a7_a56e_eeca388fcaeb>
+        <ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914 rdf:datatype="&xsd;string">Stagecoach Hotel &amp; Casino</ontology_public_tranport_101:OWLDataProperty_a00daf82_222f_4a3d_ae30_0c034074b914>
+        <ontology_public_tranport_101:OWLObjectProperty_ae5fcbd4_f6a3_4e00_a96b_c37f7469b67c rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_0cef8acd_41ff_4c82_95d8_0fad2f227924"/>
+        <ontology_public_tranport_101:OWLObjectProperty_60b5712b_fa1a_474e_8772_0b48f9898779 rdf:resource="&ontology_public_tranport_101;OWLNamedIndividual_9cf6e9e0_67fe_48f1_8cc5_f5e4bcd1c719"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
