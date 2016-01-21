@@ -1,0 +1,4 @@
+stop_id,stop_name,stop_lat,stop_lon,zone_id
+stop_1,E Main St and S Irving St,36.905697,-116.76218,zone_a
+stop_2,North Ave at D Ave N ,36.914893,-116.76821,zone_a
+stop_3,Stagecoach Hotel & Casino,36.915682,-116.751677,zone_b

@@ -1,0 +1,3 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+winter_weekday,1,1,1,1,1,0,0,20151101,20160430
+summer_daily,1,1,1,1,1,1,1,20160501,20161031

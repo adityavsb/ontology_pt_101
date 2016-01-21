@@ -1,0 +1,4 @@
+fare_id,origin_id,destination_id
+one_zone,zone_a,zone_a
+two_zones,zone_a,zone_b
+two_zones,zone_b,zone_a
