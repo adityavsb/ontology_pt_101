@@ -1,4 +1,4 @@
-# ontology_pt_101
+# Ontology for Public Transport
 Implementation of GTFS data on a sample ontology file using Protege
 
 The repository consist of two code files "PT_Ontology.owl" and "PT_Ontology_RDF.owl" along with the datset used 
